@@ -1,4 +1,5 @@
 % Normalização de dados para executar em uma rede neural Feedforward e Recorrente
+%Código feito em Octave
 
 function DadosNormalizados = normalizacaoDados(X)
 	Media = mediaDados(X)
