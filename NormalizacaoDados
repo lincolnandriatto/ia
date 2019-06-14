@@ -1,3 +1,5 @@
+% Normalização de dados para executar em uma rede neural Feedforward e Recorrente
+
 function DadosNormalizados = normalizacaoDados(X)
 	Media = mediaDados(X)
 	Desvio = desvioPadraoDados(X)
